@@ -3,8 +3,7 @@ EdgeX CoAP Peer
 
 Overview
 ********
-
-This project provides a Zephyr based CoAP peer example for the EdgeX device-coap-c project.
+This project provides a Zephyr based CoAP peer example for the EdgeX device-coap-c_ project.
 
 This example will make POST requests to device-coap-c's resource for asynchronously generated data. The example includes sample Kconfig files for both DTLS PSK and nosec security.
 
@@ -36,3 +35,5 @@ A run of the app sends three POST requests, separated by three seconds. The outp
     CoAP client POST
     
     CoAP client POST
+
+.. _device-coap-c: https://github.com/kb2ma/device-coap-c
