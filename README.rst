@@ -11,7 +11,7 @@ The example sends a POST to:
 
 .. code-block:: console
 
-    coap(s)://172.17.0.1/a1r/d1/int
+    coap(s)://192.0.2.2/a1r/d1/int
 
 In other words the protocol portion either is ``coaps`` for DTLS or ``coap`` for nosec. The example assumes the device is named ``d1`` in EdgeX.
 
